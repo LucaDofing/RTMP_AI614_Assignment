@@ -1,0 +1,20 @@
+# this is a gitignore file
+# ignore content of results and figures directories
+
+#ignore pycache files
+__pycache__/
+# ignore all .pyc files
+*.pyc
+# ignore all .pyo files
+*.pyo
+# ignore all .pyd files
+*.pyd
+
+benchmark/real_planner_results.json
+planners/results/result.json
+
+
+
+# ignore ds store
+.DS_Store
+.venv/*
