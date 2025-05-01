@@ -2,6 +2,8 @@
 
 This repository contains the implementations and a benchmark suite for Rapidly-exploring Random Trees (RRT) and its variants for pathfinding in 2D environments with obstacles.
 
+[GitHub Repository](https://github.com/LucaDofing/RTMP_AI614_Assignment)
+
 ## Overview
 
 The project implements and evaluates multiple RRT-based algorithms on various randomly generated environments. The benchmark measures performance metrics such as success rate, path cost, runtime, and node expansion across different parameter configurations.
@@ -14,8 +16,8 @@ The following RRT variants are implemented and benchmarked:
 2. **Heuristic RRT** (`heuristic_rrt`): RRT with goal-biasing heuristic
 3. **Standard RRT** (`standard_rrt`): Conventional RRT implementation
 4. **RRT*** (`rrt_star`): RRT with asymptotic optimality guarantees
-5. **RRT* Variant** (`rrt_star_variant`): Modified version of RRT*
-6. **RRT* Improved** (`rrt_star_improved`): Enhanced RRT* with optimizations for faster convergence and higher efficiency
+5. **RRT*** **Variant** (`rrt_star_variant`): Modified version of RRT*
+6. **RRT*** **Improved** (`rrt_star_improved`): Enhanced RRT* with optimizations for faster convergence and higher efficiency
 
 ## Repository Structure
 
